@@ -120,7 +120,7 @@ We are always open to [your feedback](https://github.com/facebookincubator/creat
 After creation, your project should look like this:
 
 ```
-my-app/
+fb-react-tutorial/
   README.md
   node_modules/
   package.json
@@ -1760,7 +1760,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
@@ -1875,7 +1875,7 @@ For more information see [Add Firebase to your JavaScript Project](https://fireb
 Open your `package.json` and add a `homepage` field:
 
 ```js
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://github.com/embasbm/fb-react-tutorial",
 ```
 
 Create React App uses the `homepage` field to determine the root URL in the built HTML file.
@@ -1884,7 +1884,7 @@ Create React App uses the `homepage` field to determine the root URL in the buil
 
 Now, whenever you run `npm run build`, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
 
-To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
+  To publish it at [https://github.com/embasbm/fb-react-tutorial](https://github.com/embasbm/fb-react-tutorial), run:
 
 ```sh
 npm install --save gh-pages
